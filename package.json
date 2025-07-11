@@ -1,0 +1,16 @@
+{
+  "name": "loginform-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "md5": "^2.3.0",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}
