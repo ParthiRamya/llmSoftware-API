@@ -1,5 +1,6 @@
 import sqlite3 from 'sqlite3';
 import { open } from 'sqlite';
+import md5 from 'md5';
 
 export default async function initDB() {
   const db = await open({
@@ -53,5 +54,3 @@ export default async function initDB() {
   console.log("Dummy data inserted if tables were empty");
   return db;
 }
-
-import md5 from 'md5'; // kept at bottom to allow import in top-level function
